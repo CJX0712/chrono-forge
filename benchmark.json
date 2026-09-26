@@ -1,0 +1,246 @@
+{
+  "config": {
+    "horizon": 12,
+    "seasonality": 12,
+    "cv_folds": 3,
+    "random_state": 42,
+    "metric": "smape",
+    "log_transform": false
+  },
+  "rows": [
+    {
+      "dataset": "trend",
+      "method": "naive",
+      "smape": 39.9920683192697,
+      "mae": 2.3321396711632167,
+      "rmse": 2.7305306433212038,
+      "available": true
+    },
+    {
+      "dataset": "trend",
+      "method": "seasonal_naive",
+      "smape": 39.9920683192697,
+      "mae": 2.3321396711632167,
+      "rmse": 2.7305306433212038,
+      "available": true
+    },
+    {
+      "dataset": "trend",
+      "method": "drift",
+      "smape": 42.93584342129586,
+      "mae": 2.6495774287333744,
+      "rmse": 2.9869902608075143,
+      "available": true
+    },
+    {
+      "dataset": "trend",
+      "method": "auto_arima",
+      "smape": 39.580394960768366,
+      "mae": 1.7577408936287024,
+      "rmse": 2.107618843598102,
+      "available": true
+    },
+    {
+      "dataset": "trend",
+      "method": "ets",
+      "smape": 30.456466931448656,
+      "mae": 1.2106103478511494,
+      "rmse": 1.616561752726611,
+      "available": true
+    },
+    {
+      "dataset": "trend",
+      "method": "ml_gbrt",
+      "smape": 36.4495678063894,
+      "mae": 1.5330405788546508,
+      "rmse": 1.9072111180611169,
+      "available": true
+    },
+    {
+      "dataset": "trend",
+      "method": "residual_stacking",
+      "smape": 30.91718231152711,
+      "mae": 1.2826070005120653,
+      "rmse": 1.7341691312180527,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "naive",
+      "smape": 126.20785464130442,
+      "mae": 9.710286452480597,
+      "rmse": 11.796301057247357,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "seasonal_naive",
+      "smape": 46.374521292875336,
+      "mae": 1.6209602998649493,
+      "rmse": 2.0759880392619965,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "drift",
+      "smape": 124.8980561723406,
+      "mae": 10.07724531025549,
+      "rmse": 12.326883942636371,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "auto_arima",
+      "smape": 40.92103433603087,
+      "mae": 1.51402782832997,
+      "rmse": 1.8762286981421015,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "ets",
+      "smape": 43.5426276682313,
+      "mae": 1.634098005528245,
+      "rmse": 2.0049644657405286,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "ml_gbrt",
+      "smape": 70.05203250807516,
+      "mae": 3.677653161347486,
+      "rmse": 4.329529539917649,
+      "available": true
+    },
+    {
+      "dataset": "seasonal",
+      "method": "residual_stacking",
+      "smape": 69.59565619794446,
+      "mae": 4.167928845534411,
+      "rmse": 4.453827465680322,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "naive",
+      "smape": 124.70637120552165,
+      "mae": 8.688348717823667,
+      "rmse": 10.333684517928363,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "seasonal_naive",
+      "smape": 61.39749254514291,
+      "mae": 2.313534533678714,
+      "rmse": 2.6547438885673835,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "drift",
+      "smape": 123.52187429788871,
+      "mae": 9.150292311281268,
+      "rmse": 10.68823462510842,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "auto_arima",
+      "smape": 39.10960167649172,
+      "mae": 1.833249310704192,
+      "rmse": 2.1014583569759937,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "ets",
+      "smape": 42.08344604383681,
+      "mae": 1.6560638308524,
+      "rmse": 1.9618573683729474,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "ml_gbrt",
+      "smape": 87.09318367438136,
+      "mae": 3.4083006086945944,
+      "rmse": 3.9865191873255887,
+      "available": true
+    },
+    {
+      "dataset": "trend_seasonal",
+      "method": "residual_stacking",
+      "smape": 41.82589590532563,
+      "mae": 1.6744239135638619,
+      "rmse": 2.000010700075331,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "naive",
+      "smape": 123.0185351562045,
+      "mae": 5.941016267586593,
+      "rmse": 6.989790984850856,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "seasonal_naive",
+      "smape": 49.31598392130345,
+      "mae": 2.3499091328331354,
+      "rmse": 2.958821843743115,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "drift",
+      "smape": 122.20900898500332,
+      "mae": 6.203859402644309,
+      "rmse": 7.334109249308571,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "auto_arima",
+      "smape": 28.47492589074269,
+      "mae": 2.6812269797460413,
+      "rmse": 3.519955285750295,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "ets",
+      "smape": 52.125930723762785,
+      "mae": 2.3246306493558566,
+      "rmse": 2.6532072154527357,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "ml_gbrt",
+      "smape": 70.51513200396018,
+      "mae": 4.037748851172584,
+      "rmse": 4.792129619624654,
+      "available": true
+    },
+    {
+      "dataset": "level_shift",
+      "method": "residual_stacking",
+      "smape": 53.974884722225966,
+      "mae": 2.6523301773379573,
+      "rmse": 3.0846985289310833,
+      "available": true
+    }
+  ],
+  "best_per_dataset": {
+    "trend": "ets",
+    "seasonal": "auto_arima",
+    "trend_seasonal": "auto_arima",
+    "level_shift": "auto_arima"
+  },
+  "win_counts": {
+    "ets": 1,
+    "auto_arima": 3
+  }
+}
