@@ -7,6 +7,8 @@
 - **License**: MIT
 - **Python**: 3.13
 
+![pytest](https://github.com/CJX0712/chrono-forge/actions/workflows/pytest.yml/badge.svg)
+
 ## ✨ 特性
 
 - **零自研 SOTA**：ARIMA 用 `pmdarima.auto_arima`（含季节项），指数平滑用 `statsmodels` Holt-Winters，梯度提升用 `scikit-learn` HistGradientBoosting。
